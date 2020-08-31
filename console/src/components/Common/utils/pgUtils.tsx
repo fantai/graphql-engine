@@ -535,7 +535,7 @@ export const getTableCustomRootFields = (table: Table) => {
 
 export const getTableCustomColumnNames = (table: Table) => {
   if (table.configuration) {
-    return table.configuration.custom_column_names || {};
+    return table.configuration.custom_column_names || React.useState({})[0];
   }
   return {};
 };

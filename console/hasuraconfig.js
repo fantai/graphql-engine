@@ -4,6 +4,6 @@ module.exports = {
   appHost: '0.0.0.0',
   port: { development: process.env.PORT, production: 8080 },
   assetsPrefix: '/rstatic',
-  webpackPrefix: '/rstatic/dist/',
+  webpackPrefix: '/hasura/console/assets/',
   appPrefix: '/rapp',
 };
